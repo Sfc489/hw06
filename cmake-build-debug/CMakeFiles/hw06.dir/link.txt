@@ -1,1 +1,0 @@
-/usr/bin/c++.exe  -Wall -Wno-long-long -pedantic -g -g  -Wl,--enable-auto-import CMakeFiles/hw06.dir/main.cpp.o CMakeFiles/hw06.dir/BankSim.cpp.o  -o ../out/hw06.exe -Wl,--out-implib,libhw06.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
