@@ -48,10 +48,10 @@ RM = /cygdrive/c/Users/Gamer/.CLion2018.3/system/cygwin_cmake/bin/cmake.exe -E r
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /cygdrive/c/Users/Gamer/CSC232/hw06
+CMAKE_SOURCE_DIR = /cygdrive/c/Users/Gamer/CSC232/Homework6
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /cygdrive/c/Users/Gamer/CSC232/hw06/cmake-build-debug
+CMAKE_BINARY_DIR = /cygdrive/c/Users/Gamer/CSC232/Homework6/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Gamer/CSC232/hw06/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Gamer/CSC232/hw06/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Gamer/CSC232/Homework6/cmake-build-debug/CMakeFiles /cygdrive/c/Users/Gamer/CSC232/Homework6/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Gamer/CSC232/hw06/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Gamer/CSC232/Homework6/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named hw06
+# Target rules for targets named Homework6
 
 # Build rule for target.
-hw06: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 hw06
-.PHONY : hw06
+Homework6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Homework6
+.PHONY : Homework6
 
 # fast build rule for target.
-hw06/fast:
-	$(MAKE) -f CMakeFiles/hw06.dir/build.make CMakeFiles/hw06.dir/build
-.PHONY : hw06/fast
-
-BankSim.o: BankSim.cpp.o
-
-.PHONY : BankSim.o
-
-# target to build an object file
-BankSim.cpp.o:
-	$(MAKE) -f CMakeFiles/hw06.dir/build.make CMakeFiles/hw06.dir/BankSim.cpp.o
-.PHONY : BankSim.cpp.o
-
-BankSim.i: BankSim.cpp.i
-
-.PHONY : BankSim.i
-
-# target to preprocess a source file
-BankSim.cpp.i:
-	$(MAKE) -f CMakeFiles/hw06.dir/build.make CMakeFiles/hw06.dir/BankSim.cpp.i
-.PHONY : BankSim.cpp.i
-
-BankSim.s: BankSim.cpp.s
-
-.PHONY : BankSim.s
-
-# target to generate assembly for a file
-BankSim.cpp.s:
-	$(MAKE) -f CMakeFiles/hw06.dir/build.make CMakeFiles/hw06.dir/BankSim.cpp.s
-.PHONY : BankSim.cpp.s
+Homework6/fast:
+	$(MAKE) -f CMakeFiles/Homework6.dir/build.make CMakeFiles/Homework6.dir/build
+.PHONY : Homework6/fast
 
 main.o: main.cpp.o
 
@@ -156,7 +129,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/hw06.dir/build.make CMakeFiles/hw06.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/Homework6.dir/build.make CMakeFiles/Homework6.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -165,7 +138,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/hw06.dir/build.make CMakeFiles/hw06.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/Homework6.dir/build.make CMakeFiles/Homework6.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +147,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/hw06.dir/build.make CMakeFiles/hw06.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/Homework6.dir/build.make CMakeFiles/Homework6.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -184,11 +157,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... hw06"
+	@echo "... Homework6"
 	@echo "... edit_cache"
-	@echo "... BankSim.o"
-	@echo "... BankSim.i"
-	@echo "... BankSim.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
